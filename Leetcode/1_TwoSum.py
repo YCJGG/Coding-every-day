@@ -17,7 +17,7 @@ class Solution(object):
             if (target - nums[i]) in dict:
                 return [dict[target - nums[i]],i]
             if nums[i] not in dict:
-                dict[nums[i]] = i
+                dict[nums[i]] = i  
 
         #由于题目说了有且只有唯一解，可以考虑两遍扫描求解：第一遍扫描原数组，
         # 将所有的数重新存放到一个dict中，

@@ -14,7 +14,6 @@ class Solution(object):
                     return prefix[:i] 
         return prefix
         # for i in range(0,len(strs)):
-            
         #     for k in range(len(prefix)):
         #         if prefix[k] != strs[i][k]:
         #             flag = False
